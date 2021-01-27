@@ -1,6 +1,6 @@
-diff -urN com_github_aws_aws_sdk_go_v2_service_internal_presigned_url/BUILD.bazel com_github_aws_aws_sdk_go_v2_service_internal_presigned_url_b/BUILD.bazel
---- com_github_aws_aws_sdk_go_v2_service_internal_presigned_url/BUILD.bazel	2021-01-27 11:23:26.000000000 -0500
-+++ com_github_aws_aws_sdk_go_v2_service_internal_presigned_url_b/BUILD.bazel	2021-01-27 11:24:00.000000000 -0500
+diff -urN a/BUILD.bazel b/BUILD.bazel
+--- a/BUILD.bazel	2021-01-27 15:40:47.000000000 -0500
++++ b/BUILD.bazel	2021-01-27 15:41:18.000000000 -0500
 @@ -8,7 +8,7 @@
          "middleware.go",
      ],
