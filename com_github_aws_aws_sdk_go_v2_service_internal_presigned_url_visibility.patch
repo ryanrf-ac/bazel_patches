@@ -1,0 +1,12 @@
+diff -urN com_github_aws_aws_sdk_go_v2_service_internal_presigned_url/BUILD.bazel com_github_aws_aws_sdk_go_v2_service_internal_presigned_url_b/BUILD.bazel
+--- com_github_aws_aws_sdk_go_v2_service_internal_presigned_url/BUILD.bazel	2021-01-27 11:23:26.000000000 -0500
++++ com_github_aws_aws_sdk_go_v2_service_internal_presigned_url_b/BUILD.bazel	2021-01-27 11:24:00.000000000 -0500
+@@ -8,7 +8,7 @@
+         "middleware.go",
+     ],
+     importpath = "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+-    visibility = ["//:__subpackages__"],
++    visibility = ["//visibility:public"],
+     deps = [
+         "@com_github_aws_aws_sdk_go_v2//aws/middleware:go_default_library",
+         "@com_github_aws_aws_sdk_go_v2//aws/signer/v4:go_default_library",
